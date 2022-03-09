@@ -1,0 +1,242 @@
+html{
+    background-color: black;
+}
+header{
+    background-color: white;
+    border-bottom: brown;
+}
+
+header img{
+    float: left;
+    margin-right: 5em;
+}
+
+header h1{
+    float: left;
+    margin-right: 5em;
+    padding-left: .8em;
+    font-size: 4.5em;
+    font-style: bold;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: #C8102E;
+    text-transform: uppercase;
+    position: relative;
+}
+
+body{
+    background-color: rgb(255, 233, 213);
+
+}
+/*
+body{
+    background-color: #9d2235;
+}
+*/
+hr{
+    width: 55%;
+    text-align: center;
+    margin-left: 26em;
+    background-color: #C8102E;
+    
+}
+
+
+p.bold{
+    font-weight: bold;
+    font-family: "Lyon Display Web", Times, "Times New Roman", serif;
+    font-size: 32px;
+    margin-left: 17em;
+
+}
+
+p.centerbold{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lyon Display Web", Times, "Times New Roman", serif;
+    font-size: 32px;
+}
+
+p.content{
+    text-align: center;
+    font-family: "Lyon Display Web", Times, "Times New Roman", serif;
+    font-size: 24px;
+    margin-left: 17em;
+    margin-right: 15em;
+}
+
+img.content{
+    float: right;
+    padding-top: 2em;
+    padding-right: 3em;
+    height: 200px;
+    width: auto;
+}
+
+h1.red {
+    color:#9d2235;
+    font-size: 250%;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-feature-settings: "liga", "kern";
+    text-transform: uppercase;
+    /*background-image: linear-gradient(0deg, #C8102E 0%, #C8102E 100%);
+    background-position: 0 67%;
+    background-repeat: repeat-x;
+    background-size: 1em 0.1786em;*/
+}
+
+h1.white {
+    color: white
+}
+
+h2.red {
+    color:#9d2235;
+    font-size: 250%;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-feature-settings: "liga", "kern";
+    text-transform: uppercase;
+    /*background-image: linear-gradient(0deg, #C8102E 0%, #C8102E 100%);
+    background-position: 0 67%;
+    background-repeat: repeat-x;
+    background-size: 1em 0.1786em;*/
+}
+
+h4.red {
+    color:#9d2235;
+    font-size: 250%;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-feature-settings: "liga", "kern";
+    text-transform: uppercase;
+    text-align: center;
+    /*background-image: linear-gradient(0deg, #C8102E 0%, #C8102E 100%);
+    background-position: 0 67%;
+    background-repeat: repeat-x;
+    background-size: 1em 0.1786em;*/
+}
+
+li {
+    font-size: 18px;
+}
+
+button {
+    color:#C8102E;
+}
+
+aside {
+    float: left;
+    width: 15%;
+    padding: 0em 2em 2em 0px;
+    padding-left: 2.4em;
+    border-bottom: 2px solid #C8102E;
+    border-right: 2px solid #C8102E;
+    border-top: 2px solid #C8102E;
+    background-color: rgba(255, 218, 185, 0.3);
+    
+}
+aside a{
+    text-decoration: none;
+}
+aside h2 {
+    font-size: 175%;
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: maroon;
+    margin-bottom: .15em;
+}
+aside ul {
+    font-size: 125%;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+    list-style-position: inside;
+    padding-left: 0;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+aside a:link, aside a:visited {
+    color: steelblue;
+}
+aside a:hover, aside a:focus {
+    color: #C8102E;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 8;
+    width: 100%;
+    text-align: center;
+}
+
+#nav_menu {
+    position: relative;
+}
+
+#nav_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+#nav_menu li {
+    float: left;
+    width: 20%;
+}
+
+#nav_menu ul li ul{
+    display: none;
+}
+
+#nav_menu ul li a:hover {
+    background:#c03b51;
+}
+
+#nav_menu ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+#nav_menu li a:focus {
+    background: #c03b51;
+}
+
+#nav_menu li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #C8102E;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu li a.current {
+    color: black;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+    float: none;
+    position: relative;
+    width: 120%;
+}
+
+#nav_menu ul li a:hover > ul {
+    display: block;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#mobile_menu {
+    display: none;
+}
